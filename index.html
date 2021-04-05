@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO - DO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading-1">To-do app</h1>
+
+    <form>
+        <label id="add-input-label" for="task">Add New Task</label>
+        <input id="input-field" type="text" name="task" placeholder="Enter your task">
+        <input id="submit" type="submit" value="Add Task">
+    </form>
+
+    <div class="task-list">
+        <div class="incomplete-task box">
+            <h2 class="heading-2">Incompleted Tasks</h2>
+            <ul>
+                <!-- <li class="list-item">
+                    <input id="checkbox" type="checkbox" name="task-completed">
+                    <label id="checkbox-label" for="task-completed">Task name</label>
+                </li>
+                <li class="list-item">
+                    <input id="checkbox" type="checkbox" name="task-completed">
+                    <label id="checkbox-label" for="task-completed">Task name</label>
+                </li> -->
+            </ul>
+        </div>
+        <div class="complete-task box">
+            <h2 class="heading-2">Completed Tasks</h2>
+            <ul>
+                <!-- <li>
+                    <label id="delete-label" for="task-delete">Task name</label>
+                    <input id="delete" type="submit" name="task-delete" value="Delete">
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
